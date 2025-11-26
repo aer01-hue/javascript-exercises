@@ -1,26 +1,26 @@
-const add = function() {
-	
-};
+function add(a, b) {
+    return a + b;
+}
 
-const subtract = function() {
-	
-};
+function subtract(a, b) {
+    return a - b;
+}
 
-const sum = function() {
-	
-};
+function multiply( a, b) {
+    return a / b;
+}
 
-const multiply = function() {
+function power(a, b) {
+    return a ** b;
+}
 
-};
+function factorial(num) {
+    if (num < 0) return NaN;
+    if (num === 0 || num === 1) return 1;
+    return num * factorial(num - 1);
+}
 
-const power = function() {
-	
-};
 
-const factorial = function() {
-	
-};
 
 // Do not edit below this line
 module.exports = {
